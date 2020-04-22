@@ -1,0 +1,39 @@
+What is webscraping?
+Automated web data extraction
+
+Web Crawling: A 'spider' program that searches for content by following links and exploring
+
+Scrapers: A 'scraper' program does data extraction from web pages
+
+How Scarapers work?
+Collect data from an already known page
+Create our own scraper program
+
+Sometimes scraping may not be the most efficient way of obtaining data. Hence, API plays a vital role
+
+What is an API?
+Application Programming Interface
+
+Examples of web-based APIs:
+Currency exchange rates
+Job boards
+Whether forecast
+
+APIs could be free or paid
+
+How to use an API?
+All APIs should have some form of documentation
+
+Steps Involved in Web Scraping:
+
+1. Inspect the page
+2. obtain HTML
+3. Parsing
+   Parsers - Programs designed to parse
+   Parsers - Splitting a string/text into syntactical components
+        Types of parsers used by BeautifulSoup Package:
+            - html.parser - builtin
+            - lxml - fast and best
+            - html5lib - slow and 2nd best
+4. Create a BeautifulSoup object to manipulate and extract data
+5. Exporting the HTML to file(highly Recommended)
